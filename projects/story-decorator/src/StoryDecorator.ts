@@ -336,6 +336,7 @@ export class StoryDecorator extends SpectrumElement {
                 <sp-menu-item value="light">Light</sp-menu-item>
                 <sp-menu-item value="dark">Dark</sp-menu-item>
                 <sp-menu-item value="darkest">Darkest</sp-menu-item>
+                <sp-menu-item value="eaton">Eaton</sp-menu-item>
             </sp-picker>
         `;
     }

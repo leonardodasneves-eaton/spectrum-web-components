@@ -16,3 +16,4 @@ import '../theme-dark-core-tokens.js';
 import '../theme-darkest-core-tokens.js';
 import '../scale-medium-core-tokens.js';
 import '../scale-large-core-tokens.js';
+import '../theme-eaton-core-tokens.js';

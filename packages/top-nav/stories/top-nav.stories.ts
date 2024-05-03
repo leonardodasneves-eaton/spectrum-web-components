@@ -26,6 +26,14 @@ import '@spectrum-web-components/icons-workflow/icons/sp-icon-settings.js';
 import '@spectrum-web-components/icons-workflow/icons/sp-icon-download.js';
 import '@spectrum-web-components/icons-workflow/icons/sp-icon-link.js';
 import '@spectrum-web-components/icons-workflow/icons/sp-icon-search.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-star.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-classic-grid-view.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-box.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-actions.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-homepage.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-annotate.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-real-time-customer-profile.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-log-out.js';
 import { avatar, logo } from './images';
 
 export default {
@@ -178,6 +186,51 @@ export const Modes = (): TemplateResult => {
                     <sp-menu-item>Sign Out</sp-menu-item>
                 </sp-action-menu>
             </sp-action-group>
+        </sp-top-nav>
+    `;
+};
+
+export const EatonTopNav = (): TemplateResult => {
+    return html`
+        <sp-top-nav style="justify-content: flex-end;">
+            <sp-top-nav-item 
+                href="#" 
+                style="
+                    width: 142px;
+                    height: 48px;
+                    text-indent: -9999px;
+                    background-image: url('https://www.eaton.com/content/dam/eaton/global/logos/eaton-logo-small.png');
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                " 
+            />Eaton</sp-top-nav-item>
+            <sp-action-menu
+                label="Favorites"
+                style="margin-inline-start: auto;"
+                quiet
+            >
+                <sp-icon-star slot="icon"></sp-icon-star>
+                <sp-menu-item><sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>Dashboard</sp-menu-item>
+                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Bid Manager</sp-menu-item>
+                <sp-menu-item><sp-icon-actions slot="icon"></sp-icon-actions>Eaton Project Center</sp-menu-item>
+                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Pricing and Quoting (CPQ Cloud)</sp-menu-item>
+                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Center</sp-menu-item>
+                <sp-menu-item><sp-icon-homepage slot="icon"></sp-icon-homepage>Merchandising (Staples)</sp-menu-item>
+                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Management (Aerospace)</sp-menu-item>
+                <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Selling to Eaton</sp-menu-item>
+                <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Supplier Change Request</sp-menu-item>
+                <sp-menu-item><sp-top-nav-item href="#">Show More</sp-top-nav-item></sp-menu-item>
+            </sp-action-menu>
+            <sp-action-menu
+                label="Account"
+                style="margin-inline-start: auto;"
+                quiet
+            >
+                <sp-icon-real-time-customer-profile slot="icon"></sp-icon-real-time-customer-profile>
+                <sp-menu-item>John Doe</sp-menu-item>
+                <sp-menu-item><sp-icon-settings slot="icon"></sp-icon-settings>Preferences</sp-menu-item>
+                <sp-menu-item><sp-icon-log-out slot="icon"></sp-icon-log-out>Log Out</sp-menu-item>
+            </sp-action-menu>
         </sp-top-nav>
     `;
 };

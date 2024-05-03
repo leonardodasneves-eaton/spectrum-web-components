@@ -53,7 +53,8 @@ export type Color =
     | 'light-express'
     | 'lightest-express'
     | 'dark-express'
-    | 'darkest-express';
+    | 'darkest-express'
+    | 'eaton';
 export type Scale = 'medium' | 'large' | 'medium-express' | 'large-express';
 export type ThemeVariant = 'spectrum' | 'express';
 const ThemeVariantValues = ['spectrum', 'express'];
@@ -67,6 +68,7 @@ const ColorValues = [
     'lightest-express',
     'dark-express',
     'darkest-express',
+    'eaton',
 ];
 type FragmentName = Color | Scale | ThemeVariant | 'core' | 'app';
 

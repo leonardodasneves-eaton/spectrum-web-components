@@ -10,10 +10,8 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-import '../theme-light.js';
-import '../theme-lightest.js';
-import '../theme-dark.js';
-import '../theme-darkest.js';
-import '../scale-medium.js';
-import '../scale-large.js';
-import '../theme-eaton.js';
+import eatonStyles from './src/theme-eaton-core-tokens.css.js';
+import { Theme } from './src/Theme.js';
+import './core-tokens.js';
+
+Theme.registerThemeFragment('eaton', 'color', eatonStyles);

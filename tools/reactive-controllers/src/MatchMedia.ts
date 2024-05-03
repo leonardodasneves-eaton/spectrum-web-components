@@ -11,7 +11,7 @@ governing permissions and limitations under the License.
 */
 import type { ReactiveController, ReactiveElement } from 'lit';
 
-export const DARK_MODE = '(prefers-color-scheme: dark)';
+export const DARK_MODE = '(prefers-color-scheme: light)';
 export const IS_MOBILE =
     '(max-width: 700px) and (hover: none) and (pointer: coarse), (max-height: 700px) and (hover: none) and (pointer: coarse)';
 
