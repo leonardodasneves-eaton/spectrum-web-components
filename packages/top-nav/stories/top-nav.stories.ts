@@ -204,33 +204,35 @@ export const EatonTopNav = (): TemplateResult => {
                     background-repeat: no-repeat;
                 " 
             />Eaton</sp-top-nav-item>
-            <sp-action-menu
-                label="Favorites"
-                style="margin-inline-start: auto;"
-                quiet
-            >
-                <sp-icon-star slot="icon"></sp-icon-star>
-                <sp-menu-item><sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>Dashboard</sp-menu-item>
-                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Bid Manager</sp-menu-item>
-                <sp-menu-item><sp-icon-actions slot="icon"></sp-icon-actions>Eaton Project Center</sp-menu-item>
-                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Pricing and Quoting (CPQ Cloud)</sp-menu-item>
-                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Center</sp-menu-item>
-                <sp-menu-item><sp-icon-homepage slot="icon"></sp-icon-homepage>Merchandising (Staples)</sp-menu-item>
-                <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Management (Aerospace)</sp-menu-item>
-                <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Selling to Eaton</sp-menu-item>
-                <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Supplier Change Request</sp-menu-item>
-                <sp-menu-item><sp-top-nav-item href="#">Show More</sp-top-nav-item></sp-menu-item>
-            </sp-action-menu>
-            <sp-action-menu
-                label="Account"
-                style="margin-inline-start: auto;"
-                quiet
-            >
-                <sp-icon-real-time-customer-profile slot="icon"></sp-icon-real-time-customer-profile>
-                <sp-menu-item>John Doe</sp-menu-item>
-                <sp-menu-item><sp-icon-settings slot="icon"></sp-icon-settings>Preferences</sp-menu-item>
-                <sp-menu-item><sp-icon-log-out slot="icon"></sp-icon-log-out>Log Out</sp-menu-item>
-            </sp-action-menu>
+            <sp-action-group style="margin-inline-start: auto;" quiet>
+                <sp-action-menu
+                    label="Account"
+                    style="margin-inline-start: auto;"
+                    quiet
+                >
+                    <sp-icon-real-time-customer-profile slot="icon"></sp-icon-real-time-customer-profile>
+                    <sp-menu-item>John Doe</sp-menu-item>
+                    <sp-menu-item><sp-icon-settings slot="icon"></sp-icon-settings>Preferences</sp-menu-item>
+                    <sp-menu-item><sp-icon-log-out slot="icon"></sp-icon-log-out>Log Out</sp-menu-item>
+                </sp-action-menu>
+                <sp-action-menu
+                    label="Favorites"
+                    style="margin-inline-start: auto;"
+                    quiet
+                >
+                    <sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>
+                    <sp-menu-item><sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>Dashboard</sp-menu-item>
+                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Bid Manager</sp-menu-item>
+                    <sp-menu-item><sp-icon-actions slot="icon"></sp-icon-actions>Eaton Project Center</sp-menu-item>
+                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Pricing and Quoting (CPQ Cloud)</sp-menu-item>
+                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Center</sp-menu-item>
+                    <sp-menu-item><sp-icon-homepage slot="icon"></sp-icon-homepage>Merchandising (Staples)</sp-menu-item>
+                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Management (Aerospace)</sp-menu-item>
+                    <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Selling to Eaton</sp-menu-item>
+                    <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Supplier Change Request</sp-menu-item>
+                    <sp-menu-item><sp-top-nav-item href="#">Show More</sp-top-nav-item></sp-menu-item>
+                </sp-action-menu>
+            </sp-action-group>
         </sp-top-nav>
     `;
 };
