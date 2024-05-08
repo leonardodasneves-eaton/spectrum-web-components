@@ -68,6 +68,12 @@ governing permissions and limitations under the License.
     }
 }
 
+:host,
+:host([icon-only]) {
+    --spectrum-button-border-radius: var(--spectrum-global-dimension-size-0);
+    border-radius: var(--spectrum-global-dimension-size-0);
+}
+
 :host([pending]:not([disabled])) {
     cursor: default;
     pointer-events: none;

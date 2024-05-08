@@ -22,6 +22,10 @@ governing permissions and limitations under the License.
     pointer-events: none !important;
 }
 
+:host {
+    --spectrum-actionbutton-border-radius: var(--spectrum-global-dimension-size-0);
+}
+
 :host([size='xs']) {
     /* Work around non-square icon only Action Buttons in Spectrum CSS */
     min-width: var(--spectrum-actionbutton-height, 0);
