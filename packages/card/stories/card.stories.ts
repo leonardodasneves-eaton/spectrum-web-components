@@ -20,6 +20,7 @@ import '@spectrum-web-components/menu/sp-menu.js';
 import '@spectrum-web-components/menu/sp-menu-item.js';
 import '@spectrum-web-components/menu/sp-menu-divider.js';
 import '@spectrum-web-components/link/sp-link.js';
+import '@spectrum-web-components/button/sp-button.js';
 
 export default {
     component: 'sp-card',
@@ -367,4 +368,51 @@ export const SlottedHeading = (args: StoryArgs): TemplateResult => {
             </sp-action-menu>
         </sp-card>
     `;
+};
+
+export const FeatureBlock = (args: StoryArgs): TemplateResult => {
+    return html`
+        <style>
+            sp-card {
+                width: 100%;
+            }
+            sp-card > div {
+                margin: 0;
+                min-height: 38vw;
+                padding: 6rem;
+            }
+            sp-card > div h2 {
+                margin-top: 0;
+                font-size: 3.6rem;
+                line-height: 1.25;
+            }
+            sp-card > div div {
+                font-size: 1.6rem;
+                line-height: 1.25;
+            }
+            sp-card > div sp-button {
+                margin-top: 3rem;
+                padding: 20px 40px;
+                font-size: 2rem;
+            }
+            sp-card img {
+                height: 38vw;
+                width: 38vw;
+            }
+        </style>
+        <sp-card 
+            class="feature-block"
+            ?horizontal=${args.horizontal}
+        >
+            <div slot="footer">
+                <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque risus, luctus at est quis, porttitor tincidunt elit</div>
+                <sp-button href="https://google.com">Label</sp-button>
+            </div>
+            <img slot="cover-photo" src=${portrait} alt="Demo Graphic" />
+        </sp-card>
+    `;
+};
+FeatureBlock.args = {
+    horizontal: true,
 };

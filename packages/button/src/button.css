@@ -71,6 +71,7 @@ governing permissions and limitations under the License.
 :host,
 :host([icon-only]) {
     --spectrum-button-border-radius: var(--spectrum-global-dimension-size-0);
+
     border-radius: var(--spectrum-global-dimension-size-0);
 }
 

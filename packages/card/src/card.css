@@ -34,6 +34,10 @@ governing permissions and limitations under the License.
     margin-right: auto;
 }
 
+:host([dir='rtl'].feature-block) {
+    text-align: left;
+}
+
 /* The description slot has a psuedo-element that also needs to receive the font styling. 
 We need to add the declaration to the slot as well */
 slot[name='description'] {
@@ -90,4 +94,13 @@ sp-quick-actions {
 :host:before,
 :host:after {
     pointer-events: none;
+}
+
+:host(.feature-block) .body {
+    display: none !important;
+}
+
+:host(.feature-block) sp-asset {
+    width: 38vw !important;
+    height: 38vw !important;
 }
