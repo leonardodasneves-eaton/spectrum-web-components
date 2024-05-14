@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+            format('woff2');;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
 :root,
 :host {
     --spectrum-global-animation-linear: cubic-bezier(0, 0, 1, 1);
@@ -723,9 +732,7 @@
     --spectrum-global-dimension-static-font-size-800: 32px;
     --spectrum-global-dimension-static-font-size-900: 36px;
     --spectrum-global-dimension-static-font-size-1000: 40px;
-    --spectrum-global-font-family-base: adobe-clean, 'Source Sans Pro',
-        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu,
-        'Trebuchet MS', 'Lucida Grande', sans-serif;
+    --spectrum-global-font-family-base: 'Open Sans', sans-serif;
     --spectrum-global-font-family-serif: adobe-clean-serif, 'Source Serif Pro',
         Georgia, serif;
     --spectrum-global-font-family-code: 'Source Code Pro', Monaco, monospace;
