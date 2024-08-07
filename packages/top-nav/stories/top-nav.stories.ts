@@ -34,6 +34,7 @@ import '@spectrum-web-components/icons-workflow/icons/sp-icon-homepage.js';
 import '@spectrum-web-components/icons-workflow/icons/sp-icon-annotate.js';
 import '@spectrum-web-components/icons-workflow/icons/sp-icon-real-time-customer-profile.js';
 import '@spectrum-web-components/icons-workflow/icons/sp-icon-log-out.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-drag-handle.js';
 import { avatar, logo } from './images';
 
 export default {
@@ -221,15 +222,23 @@ export const EatonTopNav = (): TemplateResult => {
                     quiet
                 >
                     <sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>
-                    <sp-menu-item><sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>Dashboard</sp-menu-item>
-                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Bid Manager</sp-menu-item>
-                    <sp-menu-item><sp-icon-actions slot="icon"></sp-icon-actions>Eaton Project Center</sp-menu-item>
-                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Pricing and Quoting (CPQ Cloud)</sp-menu-item>
-                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Center</sp-menu-item>
-                    <sp-menu-item><sp-icon-homepage slot="icon"></sp-icon-homepage>Merchandising (Staples)</sp-menu-item>
-                    <sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Management (Aerospace)</sp-menu-item>
-                    <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Selling to Eaton</sp-menu-item>
-                    <sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Supplier Change Request</sp-menu-item>
+                    <ul class="sortable-menu-header">
+                        <li id="edit-sortable-menu"><sp-icon-settings slot="icon"></sp-icon-settings></li>
+                        <li id="reset-sortable-menu">Reset</li>
+                        <li id="save-sortable-menu" hidden>Save</li>
+                        <li id="cancel-sortable-menu" hidden>Cancel</li>
+                    </ul>
+                    <ul id="sortable-menu" class="sortable-menu">
+                        <li draggable="true" class="sortable-menu-item" data-index="0"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-classic-grid-view slot="icon"></sp-icon-classic-grid-view>Dashboard</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="1"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Bid Manager</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="2"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-actions slot="icon"></sp-icon-actions>Eaton Project Center</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="3"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Pricing and Quoting (CPQ Cloud)</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="4"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Center</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="5"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-homepage slot="icon"></sp-icon-homepage>Merchandising (Staples)</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="6"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-box slot="icon"></sp-icon-box>Order Management (Aerospace)</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="7"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Selling to Eaton</sp-menu-item></li>
+                        <li draggable="true" class="sortable-menu-item" data-index="8"><sp-icon-drag-handle slot="icon"></sp-icon-drag-handle><sp-menu-item><sp-icon-annotate slot="icon"></sp-icon-annotate>Supplier Change Request</sp-menu-item></li>
+                    </ul>
                     <sp-menu-item><sp-top-nav-item href="#">Show More</sp-top-nav-item></sp-menu-item>
                 </sp-action-menu>
             </sp-action-group>

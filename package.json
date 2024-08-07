@@ -107,7 +107,7 @@
         "@rollup/plugin-node-resolve": "^15.2.3",
         "@sindresorhus/slugify": "^2.1.1",
         "@spectrum-web-components/eslint-plugin": "file:./linters/eslint",
-        "@storybook/addon-a11y": "^7.5.0",
+        "@storybook/addon-a11y": "^7.6.19",
         "@storybook/addon-essentials": "^7.5.0",
         "@storybook/addon-links": "^7.5.0",
         "@storybook/web-components": "^7.5.0",
