@@ -1,6 +1,6 @@
 {
     "name": "@uxds-web-components/picker",
-    "version": "0.43.0",
+    "version": "0.44.0",
     "publishConfig": {
         "access": "public"
     },

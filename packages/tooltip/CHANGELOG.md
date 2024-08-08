@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.44.0](https://github.com/leonardodasneves-eaton/spectrum-web-components/compare/v0.43.0...v0.44.0) (2024-08-08)
+
+### Features
+
+-   sets correct name for publish packages ([5c0356e](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/5c0356e9d61d3f1ee3cf1b86719e097503efb275))
+
 # 0.43.0 (2024-08-08)
 
 ### Bug Fixes
