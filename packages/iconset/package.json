@@ -64,6 +64,7 @@
     },
     "types": "./src/index.d.ts",
     "customElements": "custom-elements.json",
+    "gitHead": "2b181cbf491fe31be1c0d0f80276bcaa388d38aa",
     "sideEffects": [
         "./src/index.js",
         "./stories/icons-demo.js",
