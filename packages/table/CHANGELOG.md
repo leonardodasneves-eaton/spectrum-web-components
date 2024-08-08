@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   add missing "elements.js" export for sp-table component ([ab8e2a7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/ab8e2a7dc54bcccfa5c060d6361091b4cf83e8c1))
+-   prevent runaway event listeners by not rendering while disconnected ([aa8e8b2](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/aa8e8b25bb29ec386de38f12a76fd1eb15d0bc6a))
+-   **table:** add resize controller to TableBody for a11y reasons ([85dd406](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/85dd4066328afeacf978acc3fc9acd57436900a1))
+-   **table:** allow "change" events from table row content ([97699a0](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/97699a05f1845ea627814e012ed880b411855446))
+-   **table:** allow tablebody to be resized via flex-grow ([f797202](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f797202501d81ff878b500551b6ca6fbb5022e76))
+-   **table:** include all dependencies, @lit-labs/observers was missing ([98d0370](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/98d03701b05101bae4a9e1f4d554bf0648979884))
+-   **table:** update element tag in sp table sub components ([4e94d70](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/4e94d709b85eec887bf2f39ae4f3057dd67e5868))
+-   **table:** update row selection aria ([6c8c706](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6c8c70688c1df59b6e7a7a9cbf562b7171e710c1))
+-   **table:** update sp-table import in elements.js ([0cfe25a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/0cfe25a971520ae0cf6d57de0fe14430b53b72bb))
+-   update timing to support non-virtualized rows ([11ff752](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/11ff7523b1f9901b517d7180288cc995ce20c680))
+
+### Features
+
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   select row when clicking row ([294523c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/294523cd392a423351faf321cd9af1b02e0544e6))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   **table:** migrate to core tokens ([#3441](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3441)) ([b866bab](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b866bab30a56da1474d533221afd3ed536c31871))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **alert-dialog:** add Alert Dialog package ([#3501](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3501)) ([1062847](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/10628476d39ef45c23efa8b6ac53d4a2e334a92f))
+-   **alert-dialog:** use resize observer in place of page resize event for content measurement work ([b963813](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b963813156489370f0b0fa4390cb0df0891070c9))
+
+### Features
+
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

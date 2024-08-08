@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **meter, progress-bar, progress-circle:** use innerText when label is not provided ([#3483](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3483)) ([59358c7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/59358c7ada3283e2fdb08793d4c4160dcfe7aee2))
+-   **meter,progress-bar:** add i18n to progress delivery ([c7e4020](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c7e4020dc3120f7e6e366bcc89dd523dea3ba821))
+-   **progress-bar:** remove aria-label only if set by label and label is empty; add tests ([d351451](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d351451bba6be99eeddbf9fe55a29104fd86d809))
+-   **styles, theme:** surface exports that omit Spectrum Vars proactively ([#4142](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/4142)) ([5b524c1](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/5b524c1d54a64225cb3b2f71b92f581695985519))
+-   update deps graph, update link docs ([#3709](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3709)) ([2deb284](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2deb2847e6ad458c3cbaec02732fffde133e0c54))
+-   update to latest spectrum-css packages ([a5ca19f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a5ca19f67d5b3f0951667c4441d4d977bf1e0937))
+
+### Features
+
+-   add t-shirt sizing to the Radio pattern ([fc49343](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fc49343311d4ff95699b455c451514cb7fc62a45))
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   delivery dev mode messages in various packages ([62370a1](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/62370a19c77ab00e5b5702833bb1e40fb81e7d48))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   **meter:** add "variant" (coalescing various boolean attributes) and remove "over-background" attributes ([#3514](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3514)) ([40e5f8a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/40e5f8ae476a590bb3df52d7281f76f5908b8672))
+-   **progress-bar:** replace bar-loader with progress-bar ([182935c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/182935c540013af9e793ccf5654113b7af5d34de))
+-   **progress-bar:** use core tokens ([540552e](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/540552ecda4cfab4f26045a6ef2ed58457190ab9))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   **tabs:** add sp-tab-panel element ([b17d276](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b17d2765cf415578a31e5fa23515c25ff4c3922d))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Bug Fixes

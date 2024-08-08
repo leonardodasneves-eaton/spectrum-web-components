@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **alert-dialog:** add Alert Dialog package ([#3501](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3501)) ([1062847](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/10628476d39ef45c23efa8b6ac53d4a2e334a92f))
+-   correct [@element](https://github.com/element) jsDoc listing across library ([c97a632](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c97a6320c16a2b3053637e22bca0d56ce0cd5ae5))
+-   **icon:** clean up docs and types for available size values ([c38850d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c38850d1120a8599d8c623302bbc2c21485c99bc))
+-   **icons-workflow:** rename icons/files to avoid ad blocking ([842b081](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/842b0810089b567b5d3dfca70ddc5935c4c6f477))
+-   include default export in the "exports" fields ([f32407d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f32407d7bbfd18e72c35b6f27740549e79957858))
+-   include the "types" entry in package.json files ([b432f59](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b432f5982b3b79f80af12f6d0312cbe2285e608b))
+-   **infield-button:** add infield-button package ([057b885](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/057b885276f3d5dcbe32bab5ab36a2bb82334bc3))
+-   remove "type: "module"" in package.json for node 12 ([c9f76e2](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c9f76e21e24bb844466158fe96512ab19c37c5a9))
+
+### Features
+
+-   add and use icons-ui package ([d9c3ab2](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d9c3ab212b4f756334e857fc513ccbf0a4dff9cc))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **icons-workflow:** add workflow icons package ([6b09287](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6b09287d5c169205f0cc332b2158d57e7ef4a4b7))
+-   **icons-workflow:** update spectrum css input ([549b4b6](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/549b4b6b3743ac6ca3b8fe1048188ab96ba85eee))
+-   **icons-workflow:** vend fully registered icon components ([941f3a4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/941f3a41486fbd49eca0805fb63383f63313e71e))
+-   **icon:** use core tokens ([a11ef6b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a11ef6b45141769b4c73a7c79322e780a8a1fa6e))
+-   leverage "exports" field in package.json ([321abd7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/321abd7b7e78ccd9157cff75a1fa3dbd06e81f79))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   track the associated Spectrum CSS package ([86b1be5](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/86b1be5d1d2b6e870049a8642dabc3520c359716))
+-   update lit-\* dependencies, wip ([377f3c8](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/377f3c848b09e64fa1ecc1e18208f534fefcd9e4))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+
+### Performance Improvements
+
+-   use "sideEffects" listing in package.json ([7271614](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/7271614c0ca3ccf3566583bb59467eb15a6199cd))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

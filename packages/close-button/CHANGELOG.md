@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   prevent default hoisting of custom pseudo elements ([7f66346](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/7f6634665fb9fdc530bd3009246e62c24cac1904))
+
+### Features
+
+-   **action-bar:** use core tokens ([4e21edf](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/4e21edfa369dcdbba823e3cfc1b35d65f48cab6f))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **close-button:** add Close Button pattern ([8e9e1ad](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8e9e1ad1ac84a989c4052f1368d8d3d8ddc5f60e))
+-   **close-button:** use core tokens ([e6a4efe](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e6a4efe3a278ae4586a6274571b9e59638725fb7))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

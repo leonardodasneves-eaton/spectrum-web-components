@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   address westbrooks comments ([634af60](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/634af60f88b0c998b30697dfbd13c9c466ed539d))
+-   **color-handle,color-loupe,swatch,thumbnail:** use the Opacity Checkerboard package ([47e1fc4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/47e1fc4c86f736f2fa27cb6644320577717f827e))
+-   **color-handle,color-loupe:** accept updated CSS token names ([8c28f6d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8c28f6d002973bf7398f134ca4e73be8fee967dd))
+-   **color-loupe:** hide svg from screen readers ([#3318](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3318)) ([01e75b7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/01e75b7f0dbf1096976c290ad360534847781fee))
+-   opacity checkerboard inclusion order ([#3651](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3651)) ([4f417dc](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/4f417dc046d7d80d3c32e6286c71ee0311cf8a98))
+
+### Features
+
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **color-loupe:** add color-loupe pattern ([e2f0d15](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e2f0d159714cc7998f15d9913b38128486f8b7fb))
+-   **color-loupe:** use core tokens ([149165c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/149165c1ea67bc6348f31d79a89ccea8da7e9262))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

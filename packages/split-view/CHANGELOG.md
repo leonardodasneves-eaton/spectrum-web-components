@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   adapt and improve css ([649eeed](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/649eeeda637b8528217e18b6145d37e71b2c60c2))
+-   adapt tests ([88a2ff7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/88a2ff717f297aef830f47865c105dfec2d080ac))
+-   add [@slot](https://github.com/slot) description ([03019d6](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/03019d68c096bfb3171b52904dc66eef31320445))
+-   allowing split view to have a custom aria label ([#4155](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/4155)) ([d9abed7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d9abed716633b10fa3e985e91239f4ebad3f6c91))
+-   **base:** ensure streaming listener "streams" on the animation frame ([1478db1](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/1478db115cfe3aa9278bcfafb57b1d8b77d25b32))
+-   cleaning up spectrum-config ([0fde625](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/0fde6250911bde7d0496880bebf6c32f897be6b3))
+-   correct [@element](https://github.com/element) jsDoc listing across library ([c97a632](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c97a6320c16a2b3053637e22bca0d56ce0cd5ae5))
+-   correct calculation of height when using primary-size='auto' ([0ff67c0](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/0ff67c0c09fd8d2edf133fb2bf63476b49845794))
+-   correct viewSize calc and test ([2befdd5](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2befdd5533de0551664d52d72cadc0431ab07139))
+-   improve css class handling, %-test and increase base dependency ([2f2c28d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2f2c28dd2636266f75fd74a3af445d40ba55d760))
+-   improve css, simplify attributes & properties ([6ddd47c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6ddd47c93784a5d8f36aada726701c5035040b34))
+-   polishing ([d112875](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d1128752a329462f835003e2343f5fe674d8cd0c))
+-   **split-view:** end drag on pointerleave ([85e5258](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/85e525827a8aabcb4ebf441f05b7e1789b590b8b))
+-   **split-view:** expand accessible attribute usage and HCM delivery ([cb7c71f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/cb7c71f988df48aceef129665fdf432d5bcef3b0))
+-   **split-view:** prevent touch-action on handle for delivery in mobile ([b68c497](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b68c4975424039322a2d03978983898b07b91824))
+-   **split-view:** redraw when primary-size change ([665d238](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/665d2384ca7f43d89fd7e2b7b3fb7536a5e24df8))
+-   support generating random IDs outside of secure contexts ([485a67c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/485a67c5401094705b711350f8ee74182a6dd64b))
+
+### Features
+
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   setup SplitView component from rebase main ([32f3272](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/32f3272dcbaba5b09cf02f66f25b54ab923f4510))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   update lit-\* dependencies, wip ([377f3c8](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/377f3c848b09e64fa1ecc1e18208f534fefcd9e4))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+
+### Reverts
+
+-   version update ([ab58bf9](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/ab58bf9721d0332460a20f260d500455c58bad47))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Bug Fixes

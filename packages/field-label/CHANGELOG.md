@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   add "editable" option to "sp-slider" ([e86d7fa](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e86d7fa84491b41a39dbab9c8d85eec42df320cd))
+-   allow sp-dropdown to accept focus visibly from sp-field-label ([134bafc](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/134bafc9c2e4d06e48107182f82dd7487066b7f1))
+-   **field-label:** do not assume a target is available and surface t-shirt sizing ([c5daead](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c5daead76698733ce52878fc50e01cdb640396cc))
+-   move property management into update or willUpdate ([f66069f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f66069f2e38ea89de67d649b3b0bb84cc726ed73))
+-   **picker:** correct label application for screen readers ([8ce0cb0](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8ce0cb0b76fcb76af34fdd3228ae268509f80ee0))
+-   **picker:** support inline labeling of quiet Picker ([#3704](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3704)) ([3372286](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/337228659bfcd831700ce782254e5cb539c503d2))
+-   remove <sp-menu> usage where deprecated ([387db3b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/387db3be95c98ab220e517fe12a4db7a2496fe5f))
+-   **slider:** add t-shirt sizing ([24dac78](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/24dac789239bc154e97b3062fa4a91b2174f685e))
+-   support numeric IDs when resolving elements ([f62bf0d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f62bf0d24191ef47a4d7f9172c40570e052808a2))
+-   update export patterns ([b2da444](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b2da444359b4022ed3f61dedf563b5bacba42103))
+-   update to latest spectrum-css packages ([a5ca19f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a5ca19f67d5b3f0951667c4441d4d977bf1e0937))
+
+### Features
+
+-   **action-button:** add action button pattern ([03ac00a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/03ac00a710290e6a78340f206d88385a4f8ae8c2))
+-   add t-shirt sizing to the Radio pattern ([fc49343](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fc49343311d4ff95699b455c451514cb7fc62a45))
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **field-label:** add field label pattern ([2fa7c7e](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2fa7c7e0201a6161d6cc769dc171ae37c70ab136))
+-   **field-label:** update spectrum css input ([80a993d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/80a993d787af98f41a613f053e4c2497d07f07ee))
+-   **field-label:** use core tokens ([8db7ac4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8db7ac48badbad06dbcc7665e9a3bd19b271bb45))
+-   **icons-workflow:** vend fully registered icon components ([941f3a4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/941f3a41486fbd49eca0805fb63383f63313e71e))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   **picker:** process field-label content for more accurate a11y tree ([dc9df54](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/dc9df54d052edc46c2399f0f7b12d3b5d4aff740))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   **slider:** use spectrum-tokens ([8b1e72c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8b1e72c2876a6480421490509eb3b4def00a7a5f))
+-   **tabs:** add sp-tab-panel element ([b17d276](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b17d2765cf415578a31e5fa23515c25ff4c3922d))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

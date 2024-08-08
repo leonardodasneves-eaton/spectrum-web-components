@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **divider:** update a11y semantics ([46e6a12](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/46e6a1257135389e72a09f376f6b9149573873e6))
+-   expand sized functionality to support no default and returning to default values ([acf3cfb](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/acf3cfb000033d1ef1e22ca571cb8dbbeaadae77))
+-   update to latest spectrum-css packages ([a5ca19f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a5ca19f67d5b3f0951667c4441d4d977bf1e0937))
+
+### Features
+
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **divider:** create sp-divider from sp-rule ([ec26d81](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/ec26d81bf92742a42913b8cb7f87beaba035743a))
+-   **divider:** use core tokens ([e30c969](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e30c969c8688ca37b5b750cd8333844d383927fb))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **combobox:** add combobox pattern ([#3894](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3894)) ([47d7d71](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/47d7d71bc9e17b67452d45b9495c970dac15ff89)), closes [#3887](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3887)
+
+### Features
+
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **icon:** use core tokens ([a11ef6b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a11ef6b45141769b4c73a7c79322e780a8a1fa6e))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+
+### Performance Improvements
+
+-   **combobox:** prevent initial list render and update tests to prove that reduces render time ([3dc5b1f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/3dc5b1f77fbe9d5b20178a3641b0c73da0cdad35))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

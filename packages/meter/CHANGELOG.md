@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   address a11y issues raised by updating our dependencies ([4f06477](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/4f0647782eea7fdd85560e1bcb2f8b892f30bc33))
+-   **button:** adds pending button, fixes [#3162](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3162) ([#3163](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3163)) ([71254ec](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/71254ec2b29f18e62a9a2e5285ca8c35273d8d43))
+-   **meter, progress-bar, progress-circle:** use innerText when label is not provided ([#3483](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3483)) ([59358c7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/59358c7ada3283e2fdb08793d4c4160dcfe7aee2))
+-   **meter,progress-bar:** add i18n to progress delivery ([c7e4020](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c7e4020dc3120f7e6e366bcc89dd523dea3ba821))
+-   **meter:** added role meter progressbar in meter component ([#3459](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3459)) ([d2eccef](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d2eccef6de8a1c7a0f09bcae9618b4aff2109edd))
+-   **meter:** remove comment ([27687ec](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/27687eca42f37cd06f3ae5a18910b632215a5c6a))
+-   stop merging selectors in a way that alters the cascade ([369388f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/369388f8cc147543891087991c569f849ddb9b38))
+-   **styles, theme:** surface exports that omit Spectrum Vars proactively ([#4142](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/4142)) ([5b524c1](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/5b524c1d54a64225cb3b2f71b92f581695985519))
+-   update deps graph, update link docs ([#3709](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3709)) ([2deb284](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2deb2847e6ad458c3cbaec02732fffde133e0c54))
+-   update export patterns ([b2da444](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b2da444359b4022ed3f61dedf563b5bacba42103))
+-   update to latest spectrum-css packages ([a5ca19f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a5ca19f67d5b3f0951667c4441d4d977bf1e0937))
+-   use ObserveSlotText mixin to prevent white space from overriding label attribute ([610fb4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/610fb4b5b392b7e3673c7d46bf8f9f5f79f27ca9))
+
+### Features
+
+-   **action-button:** add action button pattern ([03ac00a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/03ac00a710290e6a78340f206d88385a4f8ae8c2))
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   apply sizedMixin for t-shirt sizing ([d7b63fb](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d7b63fb0db06b5a8a412fea8370964f4db9d18ae))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   **meter:** add "variant" (coalescing various boolean attributes) and remove "over-background" attributes ([#3514](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3514)) ([40e5f8a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/40e5f8ae476a590bb3df52d7281f76f5908b8672))
+-   **meter:** add meter pattern ([fa092ba](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fa092ba915a2fe6320cd9bdbe33055a9e41eee87))
+-   **meter:** update spectrum css input ([683bb1a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/683bb1a769483c50eeceb245730e8efbf2ec7442))
+-   **progress-bar:** use core tokens ([540552e](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/540552ecda4cfab4f26045a6ef2ed58457190ab9))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   **tabs:** add sp-tab-panel element ([b17d276](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b17d2765cf415578a31e5fa23515c25ff4c3922d))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+-   use SixedMixin to manage "size" property ([8819821](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/88198212cb495833ed2e7644f95b43dca915318d))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Bug Fixes

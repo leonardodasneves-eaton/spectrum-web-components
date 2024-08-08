@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **combobox:** add combobox pattern ([#3894](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3894)) ([47d7d71](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/47d7d71bc9e17b67452d45b9495c970dac15ff89)), closes [#3887](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3887)
+-   **picker-button:** include missing dependency on @spectrum-web-components/button ([#3515](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3515)) ([ed44c2b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/ed44c2bd5c729d8a563d9bd25e5d61f58ba1d074))
+-   update deps graph, update link docs ([#3709](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/3709)) ([2deb284](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2deb2847e6ad458c3cbaec02732fffde133e0c54))
+
+### Features
+
+-   add Picker Button pattern ([31337b8](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/31337b86acdade3d93bea44a781ad0ea7042ca32))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **icon:** use core tokens ([a11ef6b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a11ef6b45141769b4c73a7c79322e780a8a1fa6e))
+-   **picker-button:** migrate to core tokens ([b39219c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b39219cd92f8f17420eadc74a655e0f1d074cae3))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

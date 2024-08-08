@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **badge:** expand and update variant availability and mod override usage ([#4162](https://github.com/leonardodasneves-eaton/spectrum-web-components/issues/4162)) ([19e1a49](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/19e1a49079f67d5946a6779bd70838b69c726c4a))
+-   remove outdated CEM listing ([2e110d9](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/2e110d9f63522efdf93cefc118d54fef4365e5b2))
+
+### Features
+
+-   add badge component ([cabfdfe](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/cabfdfe7b7eb00c3868ec26afab524cef1c2fcbd))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **badge:** use core tokens ([83e566c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/83e566c6a80b01621770bbde0ee59dc3d7e7e173))
+-   delivery dev mode messages in various packages ([62370a1](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/62370a19c77ab00e5b5702833bb1e40fb81e7d48))
+-   **icon:** use core tokens ([a11ef6b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a11ef6b45141769b4c73a7c79322e780a8a1fa6e))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Bug Fixes

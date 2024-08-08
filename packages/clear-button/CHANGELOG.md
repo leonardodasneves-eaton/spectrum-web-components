@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   prevent default hoisting of custom pseudo elements ([7f66346](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/7f6634665fb9fdc530bd3009246e62c24cac1904))
+
+### Features
+
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   **clear-button:** migrate to core tokens ([64be98a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/64be98ae6cae92c1a8668a8a8b8af58337b4ce0f))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   leverage latest Spectrum button API ([9caf2f6](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/9caf2f6313424450c91c039fafea89bf8aa72624))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   **asset:** include alternative text for the file/folder versions ([92a091c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/92a091c67b9f09eee820987c096f5dd1ce60df5b))
+-   **asset:** surface label attribute for folder/file "assets" ([861696b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/861696b354639841753418cf1c27fc319e970b04))
+-   ensure browser understandable extensions ([f4e59f7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f4e59f76f86369593810463c6406565e28ad97e9))
+-   include default export in the "exports" fields ([f32407d](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f32407d7bbfd18e72c35b6f27740549e79957858))
+-   include the "types" entry in package.json files ([b432f59](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b432f5982b3b79f80af12f6d0312cbe2285e608b))
+-   update file path access ([8898bf7](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8898bf707e6e28abb78c92a0a0858d459e65347b))
+-   update latest Spectrum CSS beta releases ([d8d3acc](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d8d3acc86de31e58219db6ba2a9d045b83cbe103))
+-   update side effect listings ([8160d3a](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/8160d3ab2c4f5ea11ac40897a5cf1fdaa357f4a8))
+-   update to latest spectrum-css packages ([a5ca19f](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a5ca19f67d5b3f0951667c4441d4d977bf1e0937))
+-   use latest @spectrum-css/\* versions ([c35eb86](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/c35eb86defd89a0c36b5ea186f6d40f20851b5e5))
+
+### Features
+
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** add the asset pattern ([a7c00bb](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7c00bbd591587a13b8d941885a19047e3d1cae7))
+-   **asset:** update spectrum css input ([b3f0d70](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b3f0d7045d1436ad0f8386faba09d185a7757df5))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   use latest exports specification ([a7ecf4b](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7ecf4b6da7996f36a8a89f62cc2384709497008))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features

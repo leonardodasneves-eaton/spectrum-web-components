@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.43.0 (2024-08-08)
+
+### Bug Fixes
+
+-   add t-shirt sizing to Thumbnail and support for "xxs"/"xs" sizes ([520a642](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/520a642b33e2ca5a4fdc67c15ace029d33e895ff))
+-   **color-handle,color-loupe,swatch,thumbnail:** use the Opacity Checkerboard package ([47e1fc4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/47e1fc4c86f736f2fa27cb6644320577717f827e))
+-   use latest @spectrum-css/thumbnail with built in "cover" support ([d152b4e](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/d152b4ec2e62201f1675c95fb08083768ab5a6e1))
+
+### Features
+
+-   adopt DNA@7 base Spectrum CSS ([e08cafd](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e08cafda9f1b33b0163fbe5ba66754806be8f9e4))
+-   **asset:** use core tokens ([99e76f4](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/99e76f4d32e990960b7fa2f0613ed4144adc4f6e))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   leverage latest Spectrum button API ([9faeade](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/9faeade93893137285ae031c9516ce37d9a9041f))
+-   sets correct name for publish packages ([fd6b70c](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/fd6b70ccfef7f93b2dbb3591070d9f84d4460eb7))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+-   **tabs:** add sp-tab-panel element ([b17d276](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/b17d2765cf415578a31e5fa23515c25ff4c3922d))
+-   **thumbnail:** add the thumbnail package ([56935d5](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/56935d5f6183c700b036ffd058629a3d9cbdbbbc))
+-   **thumbnail:** use core tokens ([e298035](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/e2980354e04ab375bdaa8a6fc31141abc31dc802))
+
 # [0.42.0](https://github.com/adobe/spectrum-web-components/compare/v0.41.2...v0.42.0) (2024-03-19)
 
 ### Features
