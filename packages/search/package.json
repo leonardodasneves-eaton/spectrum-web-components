@@ -1,5 +1,5 @@
 {
-    "name": "@spectrum-web-components/search",
+    "name": "@uxds-web-components/search",
     "version": "0.42.0",
     "publishConfig": {
         "access": "public"
@@ -8,7 +8,7 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/adobe/spectrum-web-components.git",
+        "url": "https://github.com/leonardodasneves-eaton/spectrum-web-components.git",
         "directory": "packages/search"
     },
     "author": "",
