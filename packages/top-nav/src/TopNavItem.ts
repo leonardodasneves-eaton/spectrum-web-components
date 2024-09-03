@@ -132,6 +132,7 @@ export class TopNavItem extends LikeAnchor(Focusable) {
                 item.style.paddingLeft = '12px';
                 const menuItem = item.querySelectorAll('sp-menu-item');
                 menuItem[0]?.setAttribute('disabled', '');
+                menuItem[0]?.classList.add('draggable');
 
                 const dragHandleIcon = item.querySelectorAll(
                     'sp-icon-drag-handle'
@@ -165,6 +166,7 @@ export class TopNavItem extends LikeAnchor(Focusable) {
                 item.style.paddingLeft = '0';
                 const menuItem = item.querySelectorAll('sp-menu-item');
                 menuItem[0]?.removeAttribute('disabled');
+                menuItem[0]?.classList.remove('draggable');
                 const dataOrder = item.getAttribute('data-index');
                 lastOrderPos.push(String(dataOrder));
 
@@ -189,6 +191,7 @@ export class TopNavItem extends LikeAnchor(Focusable) {
                 item.style.paddingLeft = '0';
                 const menuItem = item.querySelectorAll('sp-menu-item');
                 menuItem[0]?.removeAttribute('disabled');
+                menuItem[0]?.classList.remove('draggable');
 
                 const dragHandleIcon = item.querySelectorAll(
                     'sp-icon-drag-handle'

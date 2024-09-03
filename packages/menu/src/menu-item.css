@@ -74,3 +74,13 @@ governing permissions and limitations under the License.
 :host([no-wrap]) #label {
     display: block;
 }
+
+:host(.draggable[disabled]) #label,
+:host(.draggable[aria-disabled='true']) #label {
+    color: #000;
+}
+
+:host(.draggable[disabled]) ::slotted([slot='icon']),
+:host(.draggable[aria-disabled='true']) ::slotted([slot='icon']) {
+    color: #000;
+}
