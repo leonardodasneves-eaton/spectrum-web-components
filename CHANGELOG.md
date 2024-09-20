@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.46.0](https://github.com/leonardodasneves-eaton/spectrum-web-components/compare/v0.45.0...v0.46.0) (2024-09-20)
+
+### Features
+
+-   includes styles for Eaton Top Nav story disabled links ([a7741d6](https://github.com/leonardodasneves-eaton/spectrum-web-components/commit/a7741d678e5750886dcb3f333ef2fbb6d22fcabb))
+
 # [0.45.0](https://github.com/leonardodasneves-eaton/spectrum-web-components/compare/v0.44.0...v0.45.0) (2024-08-08)
 
 ### Features
